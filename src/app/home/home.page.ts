@@ -29,7 +29,6 @@ export class HomePage {
   }
 
   public async initScanbotSdk() {
-    alert('start');
     const config: ScanbotSDKConfiguration = {
       loggingEnabled: true, // Disable logging in production builds for security and performance reasons!
       licenseKey: '',
